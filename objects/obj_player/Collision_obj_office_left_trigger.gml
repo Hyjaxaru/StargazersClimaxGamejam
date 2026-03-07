@@ -1,0 +1,1 @@
+touching_left_trigger = true
