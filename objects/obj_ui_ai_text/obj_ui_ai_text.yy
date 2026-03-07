@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object4",
+  "%Name":"obj_ui_ai_text",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object4",
+  "name":"obj_ui_ai_text",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"spr_ui_atext_background",
+    "path":"sprites/spr_ui_atext_background/spr_ui_atext_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,
