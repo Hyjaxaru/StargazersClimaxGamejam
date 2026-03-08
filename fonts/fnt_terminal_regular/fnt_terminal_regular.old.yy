@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Fnt1",
+  "%Name":"fnt_terminal_regular",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":25,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":31,
   "maintainGms1Font":false,
-  "name":"Fnt1",
+  "name":"fnt_terminal_regular",
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",

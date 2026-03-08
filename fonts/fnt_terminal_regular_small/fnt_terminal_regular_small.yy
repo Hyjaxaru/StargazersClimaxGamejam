@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"fnt_terminal_regular_small",
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

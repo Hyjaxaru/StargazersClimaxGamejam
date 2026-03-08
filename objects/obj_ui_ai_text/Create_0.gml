@@ -22,3 +22,13 @@ function draw_rectangle_centered(x, y, w, h, outlined)
     var y2 = y + h / 2
     draw_rectangle(x1, y1, x2, y2, outlined)
 }
+
+function draw_loading_screen() {
+    draw_set_colour(c_white);
+    //draw_rectangle_centered(loading_popup_centre_x, loading_popup_centre_y, loading_popup_width, loading_popup_height, true)
+    draw_circle(loading_popup_centre_x - 224 , loading_popup_centre_y, 16, true)
+    draw_set_font(fnt_terminal_regular_small)
+    draw_text(loading_popup_centre_x - 192, loading_popup_centre_y - 16, "Fun Fact:")
+    draw_set_font(fnt_terminal_regular);
+    draw_text_ext(loading_popup_centre_x - 192, loading_popup_centre_y, misinfo_string, 24, loading_popup_width)
+}
