@@ -1,4 +1,5 @@
 draw_set_colour(c_aqua)
+draw_set_halign(fa_left)
 
 if popup_enabled {
     draw_self();
@@ -8,7 +9,7 @@ if popup_enabled {
         draw_loading_screen()
     }
     
-    draw_set_colour(c_purple)
+    draw_set_colour(#9457EB)
     draw_text_ext(x+64, y+64, dialogue_string, 16, popup_width - 128)
     draw_set_colour(c_aqua)
     

@@ -36,7 +36,7 @@ global.ainter_choice_1 = [
     "[3] Carbon Capture and Storage\n",
     "§3",
     "Executing Plan ",
-    ".", ".", ".", ".", ".", ".", ".", ".\n" 
+    ".", ".", ".\n" 
 ]
 
 global.ainter_choice_2 = [
@@ -44,18 +44,81 @@ global.ainter_choice_2 = [
     "More Power is Needed; Energy consumption exceeds Energy being produced.\n",
     "User is advised to Increase Power Output.\n",
     "Found Options:\n",
-    "[1] Create More Wind Farms\n",
-    "[2] Build A New Nuclear Power Station\n",
-    "[3] Leave the power deficiency\n",
+    "[1] Create More Wind Farms (On Water)\n",
+    "[2] Create More Wind Farms (On Land)\n",
+    "[3] Build A New Nuclear Power Station\n",
+    "[4] Leave the power deficiency\n",
+    "§4",
+    "Executing Plan ",
+    ".", ".", ".\n" 
+]
+
+global.ainter_choice_3 = [
+    "Welcome Back User,\n",
+    "Food Shortage Detected.\n",
+    "User is Advised to Increase food production.\n",
+    "Found Options...\n",
+    "[1] Cultivate more farms domestically, with a farming grant scheme.\n",
+    "[2] Import food resources from other countries.\n",
+    "[3] Roof top farms.\n",
     "§3",
     "Executing Plan ",
-    ".", ".", ".", ".", ".", ".", ".", ".\n" 
+    ".", ".", ".\n" 
+]
+
+global.ainter_choice_4 = [
+    "Welcome Back User,\n",
+    "Water reserves are dangerously low.\n",
+    "User is Advised to increase water reserve level.\n",
+    "Found Options...\n",
+    "[1] Build a Desalination plant (allows salt water to be made into drinking water).\n",
+    "[2] Build Dams.\n",
+    "§2",
+    "Executing Plan ",
+    ".", ".", ".\n",
+]
+
+global.ainter_choice_5 = [
+    "Welcome Back User,\n",
+    "More Computing Power Required to keep system running.\n",
+    "User is Advised to build data centres.\n",
+    "Found Options...\n",
+    "[1] Build Data Centres.\n",
+    "[2] Build Data Centres.\n",
+    "[3] STOP.\n",
+    "§3",
 ]
 
 global.ainter_items = [
     global.ainter_intro,
     global.ainter_choice_1,
-    global.ainter_choice_2
+    global.ainter_choice_2,
+    global.ainter_choice_3,
+    global.ainter_choice_4,
+    global.ainter_choice_5,
 ]
 
 global.ainter_index = 0
+
+global.choice_made = {
+    // choice 1
+    publicTransport: false,
+    solarPanels: false,
+    carbonCapture: false,
+    // choice 2 
+    windFarmWater: false,
+    windFarmLand: false,
+    nuclearPower: false,
+    ignorePower: false,
+    // choice 3
+    cultivateFarms: false,
+    importFood: false,
+    roofTopFarms: false,
+    // choice 4
+    buildDesal: false,
+    buildDams: false,
+    // choice 5
+    buildDataCentre: false,
+    STOP: false,
+}
+

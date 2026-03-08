@@ -1,5 +1,6 @@
 // popup
 popup_enabled = true
+popup_allowed = true
 popup_width = sprite_get_width(sprite_index)
 popup_height = sprite_get_height(sprite_index)
 
@@ -108,4 +109,96 @@ function append_dialogue() {
 
 function append_dialogue_ext(text) {
     dialogue_string += text
+}
+
+function choiceMade(index) {
+    switch index {
+        case 1:
+            return global.choice_made.publicTransport
+            or global.choice_made.solarPanels
+            or global.choice_made.carbonCapture
+        case 2:
+            return global.choice_made.windFarmWater
+            or global.choice_made.windFarmLand
+            or global.choice_made.nuclearPower
+            or global.choice_made.ignorePower
+        case 3:
+            return global.choice_made.cultivateFarms
+            or global.choice_made.importFood
+            or global.choice_made.roofTopFarms
+        case 4:
+            return global.choice_made.buildDesal
+            or global.choice_made.buildDams
+        case 5:
+            return global.choice_made.buildDataCentre
+            or global.choice_made.STOP
+    }
+}
+
+// actions (all the things that happen)
+function choice1(selection) {
+    switch selection {
+        case 0:
+            global.choice_made.publicTransport = true
+            break
+        case 1:
+            global.choice_made.solarPanels = true
+            break
+        case 2:
+            global.choice_made.carbonCapture = true
+            break
+    }
+}
+
+function choice2(selection) {
+    switch selection {
+        case 0:
+            global.choice_made.windFarmWater = true
+            break
+        case 1:
+            global.choice_made.windFarmLand = true
+            break
+        case 2:
+            global.choice_made.nuclearPower = true
+            break
+        case 3:
+            global.choice_made.ignorePower = true
+            break
+    }
+}
+
+function choice3(selection) {
+    switch selection {
+        case 0:
+            global.choice_made.cultivateFarms = true
+            break
+        case 1:
+            global.choice_made.importFood = true
+            break
+        case 2:
+            global.choice_made.roofTopFarms = true
+            break
+    }
+}
+
+function choice4(selection) {
+    switch selection {
+        case 0:
+            global.choice_made.buildDesal = true
+            break
+        case 1:
+            global.choice_made.buildDams = true
+            break
+    }
+}
+
+function choice5(selection) {
+    switch selection {
+        case 0:
+            global.choice_made.buildDataCenter = true
+            break
+        case 1:
+            global.choice_made.STOP = true
+            break
+    }
 }

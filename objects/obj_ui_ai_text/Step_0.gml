@@ -12,6 +12,7 @@ if dialogue_choice_count > 0 {
     for (var _i = 0; _i < dialogue_choice_count; _i++) {
         if keyboard_check_pressed(ord(string(_i+1))) {
             dialogue_choice_selected = _i
+            dialogue_choice_count = 0
             append_dialogue_ext("Selected option: " + string(_i+1) + "\n")
             append_dialogue()
         }

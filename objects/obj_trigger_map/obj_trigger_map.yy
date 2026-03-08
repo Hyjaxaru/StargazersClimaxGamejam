@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trigger_notes",
+  "%Name":"obj_trigger_map",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_trigger_notes",
+  "name":"obj_trigger_map",
   "overriddenProperties":[],
   "parent":{
     "name":"triggers",

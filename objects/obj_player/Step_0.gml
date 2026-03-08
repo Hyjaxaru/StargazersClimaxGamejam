@@ -41,15 +41,42 @@ if _inputh != 0 or _inputv != 0 {
 
 // ---  Trigger Detection --- //
 
-if !obj_ui_ai_text.popup_enabled {
+if !obj_ui_ai_text.popup_enabled and obj_ui_ai_text.popup_allowed {
     if touching_ai_trigger and keyboard_check_pressed(vk_space) {
-        with (obj_ui_ai_text) {
+        if global.ainter_index < array_length(global.ainter_items)
+        with (obj_ui_ai_text) { 
+            /*if choiceMade(4) {
+                global.ainter_index = 5
+            }
+            
+            else if choiceMade(2) or choiceMade(3) {
+                global.ainter_index = 4
+            }
+            
+            else if choiceMade(2) and (global.choice_made[? "windFarmWater"] or global.choice_made[? "windFarmLand"]) {
+                global.ainter_index = 3
+            }
+            
+            else if choiceMade(1) {
+                global.ainter_index = 2
+            }
+            
+            else if global.ainter_index == 0 {
+                global.ainter_index = 1
+            }*/
+            
+            global.ainter_index = 2
+            
             popup_enabled = true
-            global.ainter_index += 1
             reset_dialogue()
         }
     }
 }
 
+if touching_map_trigger and keyboard_check_pressed(vk_space) {
+    room_goto(Map)
+}
+
 touching_ai_trigger = false
-touching_left_trigger = false
+touching_notes_trigger = false
+touching_map_trigger = false

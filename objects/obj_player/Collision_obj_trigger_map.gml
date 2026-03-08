@@ -1,0 +1,1 @@
+touching_map_trigger = true

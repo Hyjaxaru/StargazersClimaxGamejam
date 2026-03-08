@@ -1,1 +1,1 @@
-touching_left_trigger = true
+touching_notes_trigger = true
