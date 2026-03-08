@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_office_left_trigger",
+  "%Name":"obj_trigger_notes",
   "eventList":[],
   "managed":true,
-  "name":"obj_office_left_trigger",
+  "name":"obj_trigger_notes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"triggers",
+    "path":"folders/Objects/triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_office_left_trigger",
-    "path":"sprites/spr_office_left_trigger/spr_office_left_trigger.yy",
+    "name":"spr_trigger_ph",
+    "path":"sprites/spr_trigger_ph/spr_trigger_ph.yy",
   },
   "spriteMaskId":null,
   "visible":true,

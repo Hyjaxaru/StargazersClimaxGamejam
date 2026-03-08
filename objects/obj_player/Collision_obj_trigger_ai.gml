@@ -1,0 +1,1 @@
+touching_ai_trigger = true

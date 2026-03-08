@@ -41,4 +41,15 @@ if _inputh != 0 or _inputv != 0 {
 
 // ---  Trigger Detection --- //
 
+if !obj_ui_ai_text.popup_enabled {
+    if touching_ai_trigger and keyboard_check_pressed(vk_space) {
+        with (obj_ui_ai_text) {
+            popup_enabled = true
+            global.ainter_index += 1
+            reset_dialogue()
+        }
+    }
+}
+
+touching_ai_trigger = false
 touching_left_trigger = false

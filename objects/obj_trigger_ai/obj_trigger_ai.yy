@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_trigger_ai",
+  "eventList":[],
   "managed":true,
-  "name":"obj_game",
+  "name":"obj_trigger_ai",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"triggers",
+    "path":"folders/Objects/triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_trigger_ph",
+    "path":"sprites/spr_trigger_ph/spr_trigger_ph.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_trigger_ph",
+    "path":"sprites/spr_trigger_ph/spr_trigger_ph.yy",
+  },
   "visible":true,
 }
