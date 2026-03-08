@@ -6,8 +6,8 @@
   "name":"Village",
   "overriddenProperties":[],
   "parent":{
-    "name":"StargazersClimaxGamejam",
-    "path":"StargazersClimaxGamejam.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

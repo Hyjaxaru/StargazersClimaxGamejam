@@ -44,6 +44,7 @@
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"Village","path":"objects/Village/Village.yy",},},
     {"id":{"name":"windFarm","path":"objects/windFarm/windFarm.yy",},},
+    {"id":{"name":"Ending","path":"rooms/Ending/Ending.yy",},},
     {"id":{"name":"Map","path":"rooms/Map/Map.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -75,6 +76,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Map","path":"rooms/Map/Map.yy",},},
+    {"roomId":{"name":"Ending","path":"rooms/Ending/Ending.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
