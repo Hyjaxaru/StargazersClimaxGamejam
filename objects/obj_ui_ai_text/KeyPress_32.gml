@@ -1,4 +1,8 @@
 if dialogue_done {
+    if global.ainter_index >= 3 {
+        room_goto(Room1_1)
+    }
+    
     popup_enabled = false
     popup_allowed = false
     make_choice()

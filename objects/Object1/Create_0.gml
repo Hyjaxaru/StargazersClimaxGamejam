@@ -1,1 +1,2 @@
+audio_stop_all()
 audio_play_sound(Conflict_Final, 1 , true);
