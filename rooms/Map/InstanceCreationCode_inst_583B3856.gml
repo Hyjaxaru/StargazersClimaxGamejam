@@ -1,1 +1,0 @@
-visible = global.choice_made.buildDesal

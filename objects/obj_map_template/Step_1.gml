@@ -1,1 +1,3 @@
 choice_was_made = global.choice_made.windFarmWater
+
+ 

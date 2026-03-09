@@ -129,7 +129,6 @@ function choiceMade(index) {
 
 // actions (all the things that happen)
 function make_choice() {
-    show_debug_log(true);
     show_debug_message("RUNNING SWITCH");
     show_debug_message(global.ainter_index);
     switch global.ainter_index {

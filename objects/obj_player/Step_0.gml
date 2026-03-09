@@ -57,6 +57,7 @@ if !obj_ui_ai_text.popup_enabled and obj_ui_ai_text.popup_allowed {
 
 if touching_map_trigger and keyboard_check_pressed(vk_space) {
     room_goto(Map)
+    obj_ui_ai_text.popup_allowed = true
     audio_stop_all()
     audio_play_sound(msc_Lament, 1, true)
 }
