@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Conflict_Final",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":60.05551,
+  "exportDir":"",
+  "name":"Conflict_Final",
+  "parent":{
+    "name":"StargazersClimaxGamejam",
+    "path":"StargazersClimaxGamejam.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Conflict_Final.mp3",
+  "volume":1.0,
+}
