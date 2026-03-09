@@ -1,1 +1,1 @@
-room_goto(Room1)
+return_to_office()

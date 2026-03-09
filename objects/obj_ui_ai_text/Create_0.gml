@@ -23,8 +23,8 @@ misinfo_index = random_range(0, array_length(global.MISINFORMATION) - 1)
 misinfo_string = global.MISINFORMATION[misinfo_index]
 
 // current line of dialogue
-DIALOGUE_TIME_MIN = 45
-DIALOGUE_TIME_MAX = 75
+DIALOGUE_TIME_MIN = 15
+DIALOGUE_TIME_MAX = 45
 dialogue_current = global.ainter_items[global.ainter_index]
 dialogue_index = 0
 dialogue_string = ""
@@ -33,7 +33,7 @@ dialogue_done = false
 // choices
 dialogue_choice_index = -1
 dialogue_choice_count = 0
-dialogue_choice_selected = -1
+dialogue_choice_selected = 0
 
 
 // --- Functions --- //
@@ -114,22 +114,14 @@ function append_dialogue_ext(text) {
 function choiceMade(index) {
     switch index {
         case 1:
-            return global.choice_made.publicTransport
-            or global.choice_made.solarPanels
-            or global.choice_made.carbonCapture
-        case 2:
             return global.choice_made.windFarmWater
             or global.choice_made.windFarmLand
             or global.choice_made.nuclearPower
             or global.choice_made.ignorePower
-        case 3:
-            return global.choice_made.cultivateFarms
-            or global.choice_made.importFood
-            or global.choice_made.roofTopFarms
-        case 4:
+        case 2:
             return global.choice_made.buildDesal
             or global.choice_made.buildDams
-        case 5:
+        case 3:
             return global.choice_made.buildDataCentre
             or global.choice_made.STOP
     }
@@ -137,61 +129,28 @@ function choiceMade(index) {
 
 // actions (all the things that happen)
 function make_choice() {
-    switch dialogue_index {
+    show_debug_log(true);
+    show_debug_message("RUNNING SWITCH");
+    show_debug_message(global.ainter_index);
+    switch global.ainter_index {
         case 1: choice1(dialogue_choice_selected); break
         case 2: choice2(dialogue_choice_selected); break
         case 3: choice3(dialogue_choice_selected); break
-        case 4: choice4(dialogue_choice_selected); break
-        case 5: choice5(dialogue_choice_selected); break
     }
 }
 
 function choice1(selection) {
     switch selection {
         case 0:
-            global.choice_made.publicTransport = true
+            global.choice_made.windFarmWater = true
             break
         case 1:
-            global.choice_made.solarPanels = true
-            break
-        case 2:
-            global.choice_made.carbonCapture = true
+            global.choice_made.nuclearPower = true
             break
     }
 }
 
 function choice2(selection) {
-    switch selection {
-        case 0:
-            global.choice_made.windFarmWater = true
-            break
-        case 1:
-            global.choice_made.windFarmLand = true
-            break
-        case 2:
-            global.choice_made.nuclearPower = true
-            break
-        case 3:
-            global.choice_made.ignorePower = true
-            break
-    }
-}
-
-function choice3(selection) {
-    switch selection {
-        case 0:
-            global.choice_made.cultivateFarms = true
-            break
-        case 1:
-            global.choice_made.importFood = true
-            break
-        case 2:
-            global.choice_made.roofTopFarms = true
-            break
-    }
-}
-
-function choice4(selection) {
     switch selection {
         case 0:
             global.choice_made.buildDesal = true
@@ -202,7 +161,7 @@ function choice4(selection) {
     }
 }
 
-function choice5(selection) {
+function choice3(selection) {
     switch selection {
         case 0:
             global.choice_made.buildDataCenter = true

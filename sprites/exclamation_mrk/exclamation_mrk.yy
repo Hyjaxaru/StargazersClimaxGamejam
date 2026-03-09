@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Icons",
-    "path":"folders/Icons.yy",
+    "path":"folders/Sprites/Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

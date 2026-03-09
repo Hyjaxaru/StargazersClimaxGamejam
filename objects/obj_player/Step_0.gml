@@ -43,30 +43,12 @@ if _inputh != 0 or _inputv != 0 {
 
 if !obj_ui_ai_text.popup_enabled and obj_ui_ai_text.popup_allowed {
     if touching_ai_trigger and keyboard_check_pressed(vk_space) {
+        audio_stop_all()
+        audio_play_sound(msc_LevelMusic_Final, 1, true)
+        
         if global.ainter_index < array_length(global.ainter_items)
-        with (obj_ui_ai_text) { 
-            /*if choiceMade(4) {
-                global.ainter_index = 5
-            }
-            
-            else if choiceMade(2) or choiceMade(3) {
-                global.ainter_index = 4
-            }
-            
-            else if choiceMade(2) and (global.choice_made[? "windFarmWater"] or global.choice_made[? "windFarmLand"]) {
-                global.ainter_index = 3
-            }
-            
-            else if choiceMade(1) {
-                global.ainter_index = 2
-            }
-            
-            else if global.ainter_index == 0 {
-                global.ainter_index = 1
-            }*/
-            
-            global.ainter_index = 2
-            
+        with (obj_ui_ai_text) {
+            global.ainter_index += 1
             popup_enabled = true
             reset_dialogue()
         }
@@ -75,6 +57,8 @@ if !obj_ui_ai_text.popup_enabled and obj_ui_ai_text.popup_allowed {
 
 if touching_map_trigger and keyboard_check_pressed(vk_space) {
     room_goto(Map)
+    audio_stop_all()
+    audio_play_sound(msc_Lament, 1, true)
 }
 
 touching_ai_trigger = false
