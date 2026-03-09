@@ -1,5 +1,4 @@
 draw_image = false
-identifier = "water"
 
 function draw_sprite_centered(sprite, subimg, x, y) {
     var _w = sprite_get_width(sprite)

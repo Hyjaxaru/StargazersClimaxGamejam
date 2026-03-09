@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"windFarm_Sea","path":"rooms/Map/Map.yy",},
     {"name":"windFarm_Land","path":"rooms/Map/Map.yy",},
     {"name":"islandVille","path":"rooms/Map/Map.yy",},
     {"name":"landVille","path":"rooms/Map/Map.yy",},
@@ -23,11 +22,11 @@
     {"name":"airSpace","path":"rooms/Map/Map.yy",},
     {"name":"City","path":"rooms/Map/Map.yy",},
     {"name":"inst_63D4311C","path":"rooms/Map/Map.yy",},
+    {"name":"inst_52B84D90","path":"rooms/Map/Map.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"windFarm_Sea","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"windFarm_Sea","objectId":{"name":"windFarm","path":"objects/windFarm/windFarm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.29000002,"scaleY":0.29000002,"x":448.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"windFarm_Land","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"windFarm_Land","objectId":{"name":"windFarm","path":"objects/windFarm/windFarm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.29000002,"scaleY":0.29000002,"x":704.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"islandVille","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"islandVille","objectId":{"name":"Village","path":"objects/Village/Village.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14999998,"scaleY":0.14999998,"x":1216.0,"y":864.0,},
         {"$GMRInstance":"v4","%Name":"landVille","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"landVille","objectId":{"name":"Village","path":"objects/Village/Village.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.14999998,"scaleY":0.14999998,"x":640.0,"y":640.0,},
@@ -44,6 +43,7 @@
         {"$GMRInstance":"v4","%Name":"airSpace","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"airSpace","objectId":{"name":"alert","path":"objects/alert/alert.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.12000002,"scaleY":0.12000002,"x":1824.0,"y":576.0,},
         {"$GMRInstance":"v4","%Name":"City","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"City","objectId":{"name":"alert","path":"objects/alert/alert.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.12000002,"scaleY":0.12000002,"x":1312.0,"y":576.0,},
         {"$GMRInstance":"v4","%Name":"inst_63D4311C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63D4311C","objectId":{"name":"obj_map_manager","path":"objects/obj_map_manager/obj_map_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_52B84D90","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_52B84D90","objectId":{"name":"obj_map_wind_water","path":"objects/obj_map_wind_water/obj_map_wind_water.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.29259259,"scaleY":0.29259259,"x":448.0,"y":768.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Untitled3050_20260308024112","path":"sprites/Untitled3050_20260308024112/Untitled3050_20260308024112.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

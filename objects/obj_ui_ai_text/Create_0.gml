@@ -136,6 +136,16 @@ function choiceMade(index) {
 }
 
 // actions (all the things that happen)
+function make_choice() {
+    switch dialogue_index {
+        case 1: choice1(dialogue_choice_selected); break
+        case 2: choice2(dialogue_choice_selected); break
+        case 3: choice3(dialogue_choice_selected); break
+        case 4: choice4(dialogue_choice_selected); break
+        case 5: choice5(dialogue_choice_selected); break
+    }
+}
+
 function choice1(selection) {
     switch selection {
         case 0:

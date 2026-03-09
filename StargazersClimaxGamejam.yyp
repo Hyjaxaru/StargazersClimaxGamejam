@@ -38,6 +38,7 @@
     {"id":{"name":"farm","path":"objects/farm/farm.yy",},},
     {"id":{"name":"obj_globals","path":"objects/obj_globals/obj_globals.yy",},},
     {"id":{"name":"obj_map_manager","path":"objects/obj_map_manager/obj_map_manager.yy",},},
+    {"id":{"name":"obj_map_wind_water","path":"objects/obj_map_wind_water/obj_map_wind_water.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_trigger_ai","path":"objects/obj_trigger_ai/obj_trigger_ai.yy",},},
     {"id":{"name":"obj_trigger_map","path":"objects/obj_trigger_map/obj_trigger_map.yy",},},
